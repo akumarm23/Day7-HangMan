@@ -1,5 +1,9 @@
 # Hangman Game
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/Version-1.0-blue.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Welcome to the Hangman Game repository! This simple Python Hangman game allows you to guess a word letter by letter.
 
 ## Getting Started
@@ -13,7 +17,7 @@ Make sure you have Python installed on your machine. You can download it from [p
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/hangman-game.git
+   git clone [https://github.com/your-username/hangman-game.git](https://github.com/akumarm23/Day7-HangMan.git)
    ```
 
 2. Change into the project directory:
