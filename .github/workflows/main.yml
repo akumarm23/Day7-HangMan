@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -19,7 +22,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
     
-
-    - name: Run tests
+    - name: Run tests on main.py
       run: |
         python main.py
+        
